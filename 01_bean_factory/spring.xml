@@ -1,0 +1,14 @@
+<!-- Path of spring.xml is same directory in which pom.xml is present i.e root directory -->
+<!-- if using SPRING TOOL SUITE(STS) create Spring bean configuration file then you will get DTD-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="alien" class="com.ayush.springDemo.Alien">
+	
+	</bean>
+
+</beans>
