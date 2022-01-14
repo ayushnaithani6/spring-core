@@ -7,11 +7,14 @@
 - SYNTAX
 
 ```
-    <bean id="alien" class="com.ayush.springDemo.Alien">
-		<constructor-arg value="10"></constructor-arg>
-		<constructor-arg ref="laptop"></constructor-arg>
-	</bean>
-	
-	<bean id="laptop" class="com.ayush.springDemo.Laptop">
-	</bean>
+<bean id="alien" class="com.ayush.springDemo.Alien">
+	<constructor-arg value="10"></constructor-arg>
+	<constructor-arg ref="laptop"></constructor-arg>
+</bean>
+<bean id="laptop" class="com.ayush.springDemo.Laptop">
+</bean>
 ```
+
+OUTPUT
+
+![constructor_injection](https://user-images.githubusercontent.com/70189069/149465638-3e96604a-15ed-4867-a0a0-7c066901859f.png)
