@@ -1,4 +1,4 @@
-# # In this 01_bean_factory example code of ApplicationContext is given
+# # In this example code of ApplicationContext is given
 
 - It is an interface
 - spring.xml path should is same as ClassPath
@@ -9,3 +9,5 @@
 
 
 
+**OUTPUT**
+![singleton_bean](https://user-images.githubusercontent.com/70189069/149464774-4c943156-dc8e-44c8-9de8-b06b29aa8c4f.png)
